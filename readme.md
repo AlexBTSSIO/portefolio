@@ -7,8 +7,8 @@
 
 
 
-[Voir plus en détails le Curriculum Vitae]( https://alexbtssio.github.io/Projet_Gotham/)
-
+[Voir plus en détails le Curriculum Vitae]( https://github.com/AlexBTSSIO/portefolio.git)
+[cliquez]https://github.com/AlexBTSSIO/portefolio.git
 ## Sommaire:
 * 1.Information personnelle
 * 2.Coordonnées
