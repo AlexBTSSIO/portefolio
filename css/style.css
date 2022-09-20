@@ -1,0 +1,62 @@
+/*reset*/
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth; /* pour animer la page*/
+}
+body{
+    font: 2rem 'poppins', sans-serif;
+    margin: 0;
+    color: black;
+    text-rendering: optimizeLegibility; 
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    padding: 0rem;
+    margin: 0rem;
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul, li{
+    font-weight: 200;
+    font-family: 'Redressed', cursive;
+}
+img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 4rem;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+*{box-sizing: border-box;
+}
+:root{ /*palette couleur */
+    --bgc-primary: #d3d2d6;
+    --bgc-secondary:#ffffff;
+    --bgc-last: #3d3838;
+    --color-text: #222;
+}
+header, nav, main, footer{
+    max-width: 120rem;
+    margin: 0 auto;
+    background-color: rgba(255,255,255, 0.8);
+    padding: 1rem;
+}
+header h1, section h2, nav{
+    position: sticky;
+    top: 0;
+}
+nav{
+    max-width: 100rem;
+    margin: 5rem auto;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to left, transparent, #ffffff 90%);
+    z-index: 0;
+}
