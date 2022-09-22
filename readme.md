@@ -7,8 +7,9 @@
 
 
 
-[Voir plus en détails le Curriculum Vitae]( https://github.com/AlexBTSSIO/portefolio.git)
-[cliquez]https://github.com/AlexBTSSIO/portefolio.git
+[Voir plus en détails mon Github]( https://github.com/AlexBTSSIO/portefolio.git)
+[voir le portefolio](https://alexbtssio.github.io/portefolio/)
+
 ## Sommaire:
 * 1.Information personnelle
 * 2.Coordonnées
