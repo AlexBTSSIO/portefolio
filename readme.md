@@ -8,7 +8,7 @@
 
 
 [Voir plus en détails mon Github]( https://github.com/AlexBTSSIO/portefolio.git)
-[voir le portefolio](https://alexbtssio.github.io/portefolio/)
+<br>[Voir le portefolio](https://alexbtssio.github.io/portefolio/)
 
 ## Sommaire:
 * 1.Information personnelle
