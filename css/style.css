@@ -1,23 +1,26 @@
 /*reset*/
-@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 html{
     font-size: 62.5%;
     scroll-behavior: smooth; /* pour animer la page*/
 }
 body{
-    font: 2rem 'poppins', sans-serif;
+    font: 1.6rem 'poppins', sans-serif;
     margin: 0;
-    color: black;
+    line-height: 1.6;
+    letter-spacing: .1rem;
     text-rendering: optimizeLegibility; 
 }
-h1,h2,h3,h4,h5,h6,p,ul{
+
+h1,h2,h3,h4,h5,h6,p,ul, li{
+  
     padding: 0rem;
     margin: 0rem;
     list-style: none;
+   
 }
-h1,h2,h3,h4,h5,h6,p,ul, li{
-    font-weight: 200;
-    font-family: 'Redressed', cursive;
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
 }
 img{
     display: inline-block;
@@ -41,7 +44,7 @@ a{
     --bgc-last: #3d3838;
     --color-text: #222;
 }
-header, nav, main, footer{
+header, main, footer{
     max-width: 120rem;
     margin: 0 auto;
     background-color: rgba(255,255,255, 0.8);
@@ -50,7 +53,19 @@ header, nav, main, footer{
 header h1, section h2, nav{
     position: sticky;
     top: 0;
+    z-index: 2;
 }
+section h2, :is(p){
+    background-color: #fff;
+}
+section h2{
+    line-height: 6.5rem;
+    margin: 1rem 0;
+    background-color: rgb(226, 219, 219);
+    padding: .5rem;
+}
+
+/* }
 nav{
     max-width: 100rem;
     margin: 5rem auto;
@@ -59,4 +74,4 @@ nav{
     top: 0;
     background: linear-gradient(to left, transparent, #ffffff 90%);
     z-index: 0;
-}
+} */
