@@ -65,13 +65,27 @@ section h2{
     padding: .5rem;
 }
 
-/* }
-nav{
-    max-width: 100rem;
-    margin: 5rem auto;
-    padding: 1rem;
-    position: sticky;
-    top: 0;
-    background: linear-gradient(to left, transparent, #ffffff 90%);
-    z-index: 0;
-} */
+nav ul{
+    font-size: 0;
+    
+    margin: 0 auto;
+    /* font-size: 0; */
+}
+
+nav ul li{
+    font-size: 1.6rem;
+    display: inline-block;
+    text-transform: uppercase;
+    width: calc(100% / 6); 
+    vertical-align: top;
+}
+
+nav ol li a{
+    display: block;
+    text-align: center;
+    
+    
+}
+nav li:hover{
+    background-color: var(--bgc-title);
+}
